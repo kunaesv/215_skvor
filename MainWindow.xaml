@@ -5,76 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_215_skvor"
         mc:Ignorable="d"
-      Title="Задание 1" Height="260" Width="300"
+     Title="Задания" Height="600" Width="800"
       WindowStartupLocation="CenterScreen"
       FontFamily="Comic Sans MS"
       WindowStyle="ToolWindow"
       ResizeMode="NoResize">
     <Grid Background="White">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="100"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
+       
         <Grid.RowDefinitions>
             <RowDefinition Height="30"/>
-            <RowDefinition Height="30"/>
-            <RowDefinition Height="30"/>
+         
             <RowDefinition Height="*"/>
-            <RowDefinition Height="30"/>
+          
         </Grid.RowDefinitions>
-        <TextBlock Text="Решение"
-              Grid.Row="0"
-              Grid.Column="0"
-              Grid.ColumnSpan="2"
-              HorizontalAlignment="Center"
-              VerticalAlignment="Center"/>
-        <TextBlock Text="Число А"
-              Grid.Row="1"
-              Grid.Column="0"
-              HorizontalAlignment="Left"
-              VerticalAlignment="Center"
-              Margin="10" />
-        <TextBlock Text="Число B"
-              Grid.Row="2"
-              Grid.Column="0"
-              HorizontalAlignment="Left"
-              VerticalAlignment="Center"
-              Margin="10" />
-        <TextBlock x:Name="TextBlockAnswer"
-              Text="Ответ: "
-              Grid.Row="3"
-              Grid.Column="0"
-              Grid.ColumnSpan="2"
-              HorizontalAlignment="Stretch"
-              VerticalAlignment="Stretch"
-              Margin="10" />
-        <TextBox x:Name="TbNumberA"
-             Grid.Row="1"
-             Grid.Column="1"
-             VerticalContentAlignment="Center"
-             Padding="10 0"
-             BorderThickness="1" />
-        <TextBox x:Name="TbNumberB"
-             Grid.Row="2"
-             Grid.Column="1"
-             VerticalContentAlignment="Center"
-             Padding="10 0"
-             BorderThickness="1" />
-        <StackPanel Grid.Row="4"
-                    Grid.Column="0"
-                    Grid.ColumnSpan="2"
-                    Orientation="Horizontal"
-                    HorizontalAlignment="Center" >
-            <Button x:Name="BtnOK" Content="OK"
-                    Width="80" Height="24" Margin="3"
-                    Background="#FF3985B0"
-                    Foreground="White"
-                    Click="BtnOKClick" />
-            <Button x:Name="BtnCancel" Content="Cancel"
-                    Width="80" Height="24" Margin="3"
-                    Background="#FF3985B0"
-                    Foreground="White"
-                    Click="BtnCancelClick" />
+
+        <StackPanel Orientation="Horizontal">
+            <Button x:Name="BtnTask1" Content="Задание 1" Click="BtnTask1_Click" />
+            <Button x:Name="BtnTask2" Content="Задание 2" Click="BtnTask2_Click"/>
+            <Button x:Name="BtnTask3" Content="Задание 3" Click="BtnTask3_Click"/>
+            <Button x:Name="BtnTask4" Content="Задание 4" Click="BtnTask4_Click"/>
         </StackPanel>
+        <Frame Grid.Row="1" x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>

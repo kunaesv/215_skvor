@@ -23,6 +23,9 @@ namespace _215_skvor
         public MainWindow()
         {
             InitializeComponent();
+
+            Manager4.MainFrame = MainFrame;
+            MainFrame.Navigate(new Task1Page());
         }
         private void BtnCancelClick(object sender, RoutedEventArgs e)
         {
@@ -30,19 +33,72 @@ namespace _215_skvor
         }
         private void BtnOKClick(object sender, RoutedEventArgs e)
         {
-            double a = Convert.ToDouble(TbNumberA.Text);
-            double b = Convert.ToDouble(TbNumberB.Text);
-            double sum = a + b;
-            double diff = a - b;
-            double prod = a * b;
-            double quot = a * a / (b * b);
+            //Задание 1
 
-            string result = $"Сумма: {sum:N2}\nРазность: {diff:N2}\nПроизведение: {prod:N2}\nЧастное квадратов: {quot:N2}";
+            //double a = Convert.ToDouble(TbNumberA.Text);
+            //double b = Convert.ToDouble(TbNumberB.Text);
+            //double sum = a + b;
+            //double diff = a - b;
+            //double prod = a * b;
+            //double quot = a * a / (b * b);
 
-            TextBlockAnswer.Text = $"Ответ:\n{a:N2} + {b:N2} = {sum:N2}\n{a:N2} - {b:N2} = {diff:N2}\n{a:N2} * {b:N2} = {prod:N2}\n{a:N2}^2 / {b:N2}^2 = {quot:N2}\n\n{result}";
+            //string result = $"Сумма: {sum:N2}\nРазность: {diff:N2}\nПроизведение: {prod:N2}\nЧастное квадратов: {quot:N2}";
+
+            //TextBlockAnswer.Text = $"Ответ:\n{a:N2} + {b:N2} = {sum:N2}\n{a:N2} - {b:N2} = {diff:N2}\n{a:N2} * {b:N2} = {prod:N2}\n{a:N2}^2 / {b:N2}^2 = {quot:N2}\n\n{result}";
+
+            //Задание 2
+
+            //int A = Convert.ToInt32(TbNumberA.Text);
+            //int B = Convert.ToInt32(TbNumberB.Text);
+
+            //int temp = A;
+            //A = B;
+            //B = temp;
+
+            //TextBlockAnswer.Text = $"Новые значения:\nA = {A}\nB = {B}";
+
+            //Задание 3
+
+            //double TF = Convert.ToDouble(TbNumberA.Text);
+            //double TC = (TF - 32) * 5 / 9;
+
+            //TextBlockAnswer.Text = $"Температура по Цельсию: {TC:N2}";
+
+            //Задание 4
+
+            //double N = 1.5;
+            //double z = N + 1 / Math.Tan(N + 1) / Math.Sin(N + 1);
+            //double c = Math.Abs(N + Math.Pow(z, 5) / (3 + z));
+
+            //TextBlockAnswer.Text = $"c = {c:N2}";
 
 
 
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+           
+        }
+
+        private void BtnTask2_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Task2Page());
+        }
+
+        private void BtnTask1_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Task1Page());
+        }
+
+        private void BtnTask3_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Task3Page());
+        }
+
+        private void BtnTask4_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Task4Page());
         }
     }
 }

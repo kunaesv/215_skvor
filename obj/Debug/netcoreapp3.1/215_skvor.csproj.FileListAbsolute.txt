@@ -18,3 +18,11 @@ D:\YP\215_skvor\215_skvor\obj\Debug\netcoreapp3.1\215_skvor.csproj.CoreCompileIn
 D:\YP\215_skvor\215_skvor\obj\Debug\netcoreapp3.1\215_skvor.dll
 D:\YP\215_skvor\215_skvor\obj\Debug\netcoreapp3.1\215_skvor.pdb
 D:\YP\215_skvor\215_skvor\obj\Debug\netcoreapp3.1\215_skvor.genruntimeconfig.cache
+D:\YP\215_skvor\215_skvor\obj\Debug\netcoreapp3.1\Task1Page.g.cs
+D:\YP\215_skvor\215_skvor\obj\Debug\netcoreapp3.1\Task1Page.baml
+D:\YP\215_skvor\215_skvor\obj\Debug\netcoreapp3.1\Task2Page.g.cs
+D:\YP\215_skvor\215_skvor\obj\Debug\netcoreapp3.1\Task2Page.baml
+D:\YP\215_skvor\215_skvor\obj\Debug\netcoreapp3.1\Task3Page.g.cs
+D:\YP\215_skvor\215_skvor\obj\Debug\netcoreapp3.1\Task3Page.baml
+D:\YP\215_skvor\215_skvor\obj\Debug\netcoreapp3.1\Task4Page.g.cs
+D:\YP\215_skvor\215_skvor\obj\Debug\netcoreapp3.1\Task4Page.baml

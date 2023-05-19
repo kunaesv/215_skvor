@@ -7,7 +7,33 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Task1Page.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Task2Page.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Task3Page.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Task4Page.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Task1Page.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Task2Page.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Task3Page.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Task4Page.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
