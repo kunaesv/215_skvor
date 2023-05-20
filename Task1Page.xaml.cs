@@ -58,10 +58,9 @@ namespace _215_skvor
 
             ////Задание 4
 
-            //double N = 1.5;
-            //double z = N + 1 / Math.Tan(N + 1) / Math.Sin(N + 1);
-            //double c = Math.Abs(N + Math.Pow(z, 5) / (3 + z));
-
+            //double N = Convert.ToDouble(TbNumberA.Text);
+            //double z = (N + Math.Cos(N + 1)) / Math.Sin(N + 1);
+            //double c = Math.Abs((N + z) / 5 - (3 + z));
             //TextBlockAnswer.Text = $"c = {c:N2}";
 
 
