@@ -19,6 +19,9 @@
     <Compile Update="Task4Page.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Task5Page.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="MainWindow.xaml">
@@ -34,6 +37,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Task4Page.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Task5Page.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

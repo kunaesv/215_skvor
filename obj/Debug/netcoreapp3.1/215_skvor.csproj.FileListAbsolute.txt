@@ -26,3 +26,5 @@ D:\YP\215_skvor\215_skvor\obj\Debug\netcoreapp3.1\Task3Page.g.cs
 D:\YP\215_skvor\215_skvor\obj\Debug\netcoreapp3.1\Task3Page.baml
 D:\YP\215_skvor\215_skvor\obj\Debug\netcoreapp3.1\Task4Page.g.cs
 D:\YP\215_skvor\215_skvor\obj\Debug\netcoreapp3.1\Task4Page.baml
+D:\YP\215_skvor\215_skvor\obj\Debug\netcoreapp3.1\Task5Page.g.cs
+D:\YP\215_skvor\215_skvor\obj\Debug\netcoreapp3.1\Task5Page.baml
